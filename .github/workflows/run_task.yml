@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   schedule:
     #cron表达式使用国际标准时间，任务在国际标准时间10:01执行（北京时间18:01）
-    - cron: '1 10 * * *'
+    - cron: '15 2 * * *'
 jobs:
   start:
     runs-on: ubuntu-latest
